@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "0bf75144-a031-49e2-85f0-dc351ff96af1",
+    "colId": "168f1846-de35-4479-b50d-18e192e0d84d",
+    "containerId": "",
+    "name": "POST",
+    "url": "http://localhost:5000/getuser",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-04-11T12:32:22.167Z",
+    "modified": "2023-04-14T05:49:19.574Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Radha\",\n  \"email\": \"Radha@gmail.com\",\n  \"age\": 24\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "94e29a9b-31f5-4043-bf59-d9f8fdda3ef5",
+    "colId": "168f1846-de35-4479-b50d-18e192e0d84d",
+    "containerId": "",
+    "name": "GET",
+    "url": "http://localhost:5000/fetchall",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-04-11T13:05:32.778Z",
+    "modified": "2023-04-13T14:11:45.752Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7aa719df-2cc1-4394-b7d5-05f49428948d",
+    "colId": "168f1846-de35-4479-b50d-18e192e0d84d",
+    "containerId": "",
+    "name": "Get single user",
+    "url": "http://localhost:5000/get64380d679c222672dc33cd7d",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2023-04-12T06:04:23.006Z",
+    "modified": "2023-04-14T05:35:53.005Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "310c2fa4-0970-4db8-a2fa-f539e08ebf27",
+    "colId": "168f1846-de35-4479-b50d-18e192e0d84d",
+    "containerId": "",
+    "name": "delete",
+    "url": "http://localhost:5000/delete64380d679c222672dc33cd7d",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2023-04-12T06:15:03.877Z",
+    "modified": "2023-04-14T05:36:39.777Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "86fd5c1f-ced4-443a-a302-c5b2832dc1b0",
+    "colId": "168f1846-de35-4479-b50d-18e192e0d84d",
+    "containerId": "",
+    "name": "Update",
+    "url": "http://localhost:5000/edit/6438e68170fbc49ebb8de342",
+    "method": "PATCH",
+    "sortNum": 50000,
+    "created": "2023-04-12T06:20:40.539Z",
+    "modified": "2023-04-14T06:54:19.465Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"saad\",\n  \"email\": \"saad@gmail.com\",\n  \"age\": 23\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
